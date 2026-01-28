@@ -32,7 +32,7 @@ class State(TypedDict):
     topic: str
     feedback: str
     polite_or_not: str
-    attempts: int
+    attempts: int  # 개선 시도 횟수 카운터
 
 
 # 평가 결과를 구조화할 스키마(Feedback)
