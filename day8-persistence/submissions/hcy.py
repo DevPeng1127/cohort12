@@ -323,7 +323,7 @@ print("\n🧙‍♂️ [Scene 2] 닥터 스트레인지 등판! (Time Travel)")
 # 2-1. [기존] 대화 내역(State) 조작 -> "채팅 로그 조작"
 new_message = {
     "role": "user",
-    "content": "나 오늘 깃 머지 충돌 났는데 CLI로 완벽하게 해결했어! 완전 고수 같았음 ㅇ_<)v"
+    "content": "나 오늘 깃 머지 충돌 났는데 CLI로 완벽하게 해결했어! 완전 고수 같았음 v"
 }
 
 current_messages = initial_state['messages']
@@ -370,6 +370,7 @@ print("\n📦 [Store 확인] 뇌 속에 저장된 기억 까보기")
 memories = store.search(("pengveloper", "memories"))
 for m in memories:
     print(f"- 기억: {m.value['memory']}")
+
 
 
 """Apendix
